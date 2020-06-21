@@ -1,7 +1,7 @@
 ---
 layout: layouts/blog.njk
-title: Blog
-date: 2017-01-01
+title: Blog | Mike Wzorek
+date: 2020-01-01
 permalink: /blog/index.html
 eleventyNavigation:
   key: Blog
