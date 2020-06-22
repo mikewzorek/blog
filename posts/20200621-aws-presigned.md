@@ -21,7 +21,7 @@ First install the AWS SDK.
 
 Next initialize the S3 client in the class constructor.
 
-``` typescript
+```typescript
 import AWS, { S3 } from 'aws-sdk';
 
 export class S3Service {
