@@ -10,20 +10,13 @@
 
 html,
 body {
-	padding: 0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-}
-
-body {
-	display: grid;
-	height: 100vh;
-	grid-template-rows: auto 1fr auto;
+	padding: .5em;
 	background-color: var(--background);
-}
-
-main {
-	max-width: 39.5em;
+	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
 p,
@@ -49,6 +42,7 @@ footer {
 
 main {
 	padding-bottom: 2em;
+	max-width: 75em;
 }
 
 main :first-child,
@@ -184,11 +178,4 @@ button {
 	cursor: pointer;
 }
 
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
-	main {
-		max-width: 60em
-	}
-}
+
