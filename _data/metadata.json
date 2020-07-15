@@ -1,4 +1,9 @@
 {
   "title": "MikeWzorek.com",
-  "url": "https://mikewzorek.com"
+  "url": "https://mikewzorek.com",
+  "domain": "mikewzorek.com",
+  "author": {
+    "name": "Mike Wzorek",
+    "email": "wzorekmj@gmail.com"
+  }
 }
