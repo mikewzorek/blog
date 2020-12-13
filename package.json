@@ -20,15 +20,15 @@
   "license": "MIT",
   "homepage": "https://github.com/mikewzorek/blog",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0-beta.3",
+    "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-plugin-inclusive-language": "^1.0.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "luxon": "^1.22.2",
-    "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^5.2.7"
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
+    "luxon": "^1.25.0",
+    "markdown-it": "^12.0.3",
+    "markdown-it-anchor": "^6.0.1"
   },
   "dependencies": {
-    "@11ty/eleventy-navigation": "^0.1.5",
+    "@11ty/eleventy-navigation": "^0.1.6",
     "clean-css": "^4.2.1",
     "html-minifier": "^4.0.0",
     "uglify-es": "^3.3.9"
